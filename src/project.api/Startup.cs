@@ -105,7 +105,6 @@ namespace project.api
 
             app.UseStaticFiles();
 
-            //上传的文件访问配置，可根据自己项目的文件类型添加
             var fileExtProvider = new FileExtensionContentTypeProvider();
             //fileExtProvider.Mappings[".htm3"] = "text/html";
             var uploadFullPath = Path.GetFullPath(AppSettings.Instance.Upload.UploadPath);
@@ -118,7 +117,7 @@ namespace project.api
 
             app.UseRouting();
             app.UseCookiePolicy();
-            app.UseAuthentication(); //开启验证
+            app.UseAuthentication(); 
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
