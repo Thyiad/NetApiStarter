@@ -15,11 +15,7 @@ namespace Project.Api.Controllers
             {
                var user =  this.HttpContext.User;
                string userId = user?.FindFirst("userid")?.Value;
-
-                ClaimsPrincipal pricel = new ClaimsPrincipal();
-                pricel.
-
-
+                
                 return userId;
             }
         }
