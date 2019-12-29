@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Project.Api.Controllers.UploadController">
+            <summary>
+            上传相关
+            </summary>
+        </member>
+        <member name="M:Project.Api.Controllers.UploadController.Uploadfile">
+            <summary>
+            上传文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Project.Api.Controllers.UserController">
+            <summary>
+            用户相关服务
+            </summary>
+        </member>
+        <member name="M:Project.Api.Controllers.UserController.Login(Project.Api.Controllers.LoginRequest)">
+            <summary>
+            登录，获取jwt
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Project.Api.Filters.MyActionFilterAttribute.ValidParams">
+            <summary>
+            是否验证参数有效性
+            </summary>
+        </member>
+        <member name="T:Project.Api.SwaggerServiceExtensions.SwaggerDocumentFilter">
+            <summary>
+            Swagger控制器描述文字
+            </summary>
+        </member>
+    </members>
+</doc>

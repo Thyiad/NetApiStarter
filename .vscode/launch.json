@@ -1,4 +1,4 @@
-{
+﻿{
     // 使用 IntelliSense 了解相关属性。 
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/project.api/bin/Debug/netcoreapp3.1/project.api.dll",
+            "program": "${workspaceFolder}/src/Project.Api/bin/Debug/netcoreapp3.1/Project.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/project.api",
+            "cwd": "${workspaceFolder}/src/Project.Api",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
